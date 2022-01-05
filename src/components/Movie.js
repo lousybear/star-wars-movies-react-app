@@ -5,7 +5,7 @@ export default function Movie(props) {
     <div className="card">
       <div className="container">
         <img
-          class="poster"
+          className="poster"
           src={props.image}
           alt="Star Wars"
           width="100%"

@@ -13,7 +13,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -89,12 +89,31 @@ body {
 
 .addMovie {
   margin-bottom: 50px;
-  padding: 50px 100px;
+  padding: 30px 30px;
   background-color: #ccc;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
 }
 
 .addMovie button {
+  color: #fff;
+  background: #000;
   cursor: pointer;
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+}
+
+.addMovie input {
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .footer {
